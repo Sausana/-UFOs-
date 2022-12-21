@@ -1,14 +1,27 @@
-# surfs_up
+## UFOs_Challenge
+UFO Sightings with JavaScript
 
-This project explores the power of data storage and Rrtrieval to produce an analyis of temperature trends in Oahu, Hawaii. Specifically, summary statistics of temperature data were requested for the months of June and December, in order to determine if a prospective surf and ice cream shop business can sustainably operate year-round as opposed to a seasonal business.
+# Overview:
+The request from a client was to display a table organizing UFO data stored as a JavaScript array. The client wanted the ability to filter by multiple criteria creating a dynamic website. The table was created using JavaScript, while HTML/CSS and Bootstrap were used to modify the aesthetics of the website.
 
-Summary Statistics DataFrame: June vs December Temperatures
+## Results
+# Welcome to UFO Sightings!
+![image_name](Images/top.png)
 
-![image_name](Images/June_temps.png)
-The average recorded temperature in June is about 75 degrees F, 4 degrees higher than the average temp in December.
-This represents a -5% change in average temperature from June to December
-The frequency of temperatures recorded in June tends to have a much more normal.
-The December temperatures seem to be more variable than those in June given its larger range in recorded temperatures (comparing the max vs min temp of each month)
-![image_name](Images/Dec_temps.png)
+How the filters appear on the page:
+![image_name](Images/bottom.png)
 
-In Summary, even though temperatures recorded in December seem to vary more than those of June, December would still provide appropriate weather conditions for both surfing and demand in ice cream. The average temperatures in June and December only differ by 4 degree
+# How the filters appear after being used:
+
+By typing in the suggested placeholder elements as the filters, the result returns 2 matches. Make sure to type everything in lower case letters and do not have spaces at the end of the text. Click off the input box or press enter to initiate the filter. To reset the filter criteria, click the UFO Sightings at the top left of the website.
+
+![image_name](Images/filter.png)
+
+## Summary
+# Drawback
+The user must know specific dates, cities, or shapes to search. Some shapes like "light" might not be as intuitive. The filters require correct lower-case spellings and cannot include spaces at the end. The city that was used, for example, could not be typed as "elcajon", “el cajon_”, or "El Cajon". The only acceptable input would be "el cajon".
+
+# Recommendation:
+The next addition to the filters should be to add a trim function to catch spaces at the end of words as well as allow for upper and lower cases.
+
+![image_name](Images/trim.png)
