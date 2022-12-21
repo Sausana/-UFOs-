@@ -6,16 +6,16 @@ The request from a client was to display a table organizing UFO data stored as a
 
 ## Results
 # Welcome to UFO Sightings!
-![image_name](images/top.png)
+![image_name](static/images/top.png)
 
 How the filters appear on the page:
-![image_name](images/bottom.png)
+![image_name](static/images/bottom.png)
 
 # How the filters appear after being used:
 
 By typing in the suggested placeholder elements as the filters, the result returns 2 matches. Make sure to type everything in lower case letters and do not have spaces at the end of the text. Click off the input box or press enter to initiate the filter. To reset the filter criteria, click the UFO Sightings at the top left of the website.
 
-![image_name](images/filter.png)
+![image_name](static/images/filter.png)
 
 ## Summary
 # Drawback
@@ -24,4 +24,4 @@ The user must know specific dates, cities, or shapes to search. Some shapes like
 # Recommendation:
 The next addition to the filters should be to add a trim function to catch spaces at the end of words as well as allow for upper and lower cases.
 
-![image_name](images/trim.png)
+![image_name](static/images/trim.png)
